@@ -1,9 +1,13 @@
+import React from "react"; // refers to react in node mods
+// import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
+
 const heading = React.createElement("h1", {}, "Hello World written via React!");
 // created an ele, base react work, so React.cE is used
 // any attributes like id/class are taken inside{}
             
-const root = ReactDOM.createRoot(document.getElementById("root"));
-// createting a root and which connects browser and the dev data, so ReactDOM is used.
+const root = createRoot(document.getElementById("root"));
+// creating a root and which connects browser and the dev data, so ReactDOM is used.
 
 root.render(heading);
 // like how we append child the tags to the root element we render the child created to the root elements using render()
