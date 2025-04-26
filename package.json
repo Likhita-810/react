@@ -1,0 +1,26 @@
+{
+  "name": "react-webdev",
+  "version": "1.0.0",
+  "description": "learning react from namaste dev",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Likhita-810/react.git"
+  },
+  "keywords": [
+    "react",
+    "likhi"
+  ],
+  "author": "likhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Likhita-810/react/issues"
+  },
+  "homepage": "https://github.com/Likhita-810/react#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
