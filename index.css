@@ -21,6 +21,11 @@
 
 .filter {
     padding: 10px;
+    display: flex;
+}
+
+.filter-btn {
+    margin-left: 20px;
 }
 
 .res-container{
