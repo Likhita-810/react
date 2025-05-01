@@ -23,7 +23,7 @@
     padding: 10px;
 }
 
-.res-container {
+.res-container{
     display: flex;
     flex-wrap: wrap;
     padding: 0 15px;
@@ -71,8 +71,29 @@ h4 {
     justify-content: space-between;
 }
 
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
 
+.shimmer-card {
+    width: 190px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
 
+.shimmer-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.login {
+    cursor: pointer;
+    padding: 0 10px;
+}
 
 
 
